@@ -7,6 +7,7 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/utils/cn";
 
+
 import { BackgroundGradientAnimation } from "./GradientBg";
 import {GlobeDemo} from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -50,8 +51,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Next.js", "Typescript"];
-  const rightLists = ["PyTorch", "TensorFlow", "Python"];
+  const leftLists = ["", "PyTorch", "TensorFlow", "Keras"];
+  const rightLists = ["NextJS", "ReactJS", "ExpressJS", ""];
 
   const [copied, setCopied] = useState(false);
 
@@ -65,7 +66,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "kkunal644@gmail.com";
+    const text = "hsu@jsmastery.pro";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
