@@ -25,7 +25,7 @@ const Approach = () => {
         <Card
           title="Development and progress update"
           icon={<AceternityIcon order="phase 2" />}
-          description="we will collaborate to map out your website goals, target audience and key functionalities. We'll discuss things like site structure, navigation, and content requirements"
+          description="We will provide an overview of current developments and progress made in the ongoing project. It includes updates on milestones achieved, technical implementations, and any challenges addressed, ensuring transparency and alignment with project timelines and objectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,7 +42,7 @@ const Approach = () => {
         <Card
           icon={<AceternityIcon order="phase 3" />}
           title="Development and launch"
-          description="we will collaborate to map out your website goals, target audience and key functionalities. We'll discuss things like site structure, navigation, and content requirements"
+          description="It'll includes insights into the development process, key milestones achieved, and the strategies employed to ensure a successful launch, highlighting our commitment to delivering a compelling online presence."
         >
           <CanvasRevealEffect
             animationSpeed={3}
